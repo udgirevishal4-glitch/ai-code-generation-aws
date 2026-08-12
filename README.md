@@ -28,3 +28,22 @@ Set `AWS_REGION` and `BEDROCK_MODEL_ID`, configure AWS credentials/role, and tur
 
 ## Security
 Never commit GitHub tokens, AWS access keys, `.env` files, or other secrets. Use environment variables, IAM roles, or AWS Secrets Manager.
+
+## Features
+
+- Converts GitHub issues into Python code using Generative AI
+- Integrates with GitHub API
+- Uses Amazon Bedrock with Claude
+- Includes Demo mode without AWS credentials
+- Streamlit-based web application
+- Optional Amazon S3 storage
+
+## Tech Stack
+
+- Python
+- Streamlit
+- GitHub API
+- Amazon Bedrock
+- Claude
+- AWS S3
+- Generative AI
